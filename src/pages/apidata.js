@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {halloDaar} from '../components/teldata.js'
 import '../style/graph.css'
 import * as d3 from 'd3';
 

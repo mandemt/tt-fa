@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {halloDaar} from '../components/teldata.js'
+import {createChart} from '../components/createchart.js'
 import '../style/graph.css'
 class Grafiek extends Component{
     render(){
@@ -10,7 +10,7 @@ return(
 
     <div className="graph">
     <div id="filter">
-        <button onClick={halloDaar}>maak grafiek</button>
+        <button onClick={createChart}>maak grafiek</button>
         <h3>Filter hoe vaak iets mag voorkomen:</h3>
         <label id="range">
             <p>0</p>
