@@ -14,10 +14,8 @@ class Footer extends Component{
 render(){
     return(
     <footer>
-        mandemt
+        mandemt 2021
     </footer>
-
-
     )
 }
 
