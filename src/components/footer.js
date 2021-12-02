@@ -1,4 +1,4 @@
-import './style/Footer.css';
+import '../style/Footer.css';
 import * as d3 from 'd3';
 import React, { Component } from 'react';
 import {

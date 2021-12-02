@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {halloDaar} from './teldata.js'
-import './style/graph.css'
+import {halloDaar} from '../components/teldata.js'
+import '../style/graph.css'
 class Grafiek extends Component{
     render(){
 

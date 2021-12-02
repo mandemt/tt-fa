@@ -1,4 +1,4 @@
-import './style/Header.css';
+import '../style/Header.css';
 import * as d3 from 'd3';
 import React, { Component } from 'react';
 import {
@@ -8,7 +8,8 @@ import {
     Routes as Switch,
     
 } from 'react-router-dom';
-import Grafiek from './graph.js'
+import Grafiek from '../pages/grafiek.js'
+import API from '../pages/apidata.js'
 
 class Header extends Component{
 render(){
@@ -22,13 +23,16 @@ render(){
      <Link to="/barchart">Bar chart</Link>
    </li>
    <li>
+     <Link to="/apidata">API data</Link>
+     </li>
+   <li>
      <a href="https://github.com/mandemt/tt-fa/wiki">Wiki</a>
    </li>
    </ul>
 
  <Switch>
    <Route exact path='/barchart' element={<Grafiek/>}></Route>
-   {/* <Route exact path='/contact' element={<Contact/>}></Route> */}
+   <Route exact path='/apidata' element={<API/>}></Route>
  </Switch>
 </Router>
 
