@@ -8,7 +8,7 @@ var schoneData = []; // Array voor opsgeschoonde data
 let request = new XMLHttpRequest(); // de aanvraag naar de data van de API wordt aangevraagd 
 let input = document.querySelector('input')
 let id = input.value
-request.open('GET', 'https://www.rijksmuseum.nl/api/nl/collection/?key=N7PX59OF&involvedMaker=' + id) // De link naar de API. Een verschillend id zorgt voor andere resultaten.
+request.open('GET', 'https://www.rijksmuseum.nl/api/nl/collection?key=N7PX59OF&involvedMaker=Rembrandt+van+Rijn') // De link naar de API. Een verschillend id zorgt voor andere resultaten.
 request.onload = function () { // Als het request wordt uitgevoerd zal deze anonieme functie worden uitgevoerd.
     let data = JSON.parse(request.response); // string uit de API wordt omgezet als JS object
     let kleuren = data.facets[6].facets; // Ik haal de specifieke variabele uit de kunstenaar uit id.
