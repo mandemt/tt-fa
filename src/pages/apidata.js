@@ -8,15 +8,16 @@ import request from '../components/request.js'
          
         return(
             <>
-            <input type="text" value="Rembrandt+van+Rijn"></input>
-            <button  onClick={request}></button>
-            <div>hoi</div>
-            <rect className="dinges"></rect>
-            <rect className="dinges"></rect>
-            <rect className="dinges"></rect>
-            <rect className="dinges"></rect>
-            <rect className="dinges"></rect>
+            <div className="squares">
 
+            <input type="text"></input>
+            <button  onClick={request}>Bekijk verfkleuren</button>
+            <rect className="dinges"></rect>
+            <rect className="dinges"></rect>
+            <rect className="dinges"></rect>
+            <rect className="dinges"></rect>
+            <rect className="dinges"></rect>
+            </div>
 
             </>
         )

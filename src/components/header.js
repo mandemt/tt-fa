@@ -5,7 +5,6 @@ import {
   Route,
   Link,
   Routes as Switch,
-
 } from 'react-router-dom';
 import Grafiek from '../pages/grafiek.js'
 import API from '../pages/apidata.js'
