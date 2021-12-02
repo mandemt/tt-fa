@@ -34,10 +34,13 @@ export function halloDaar(e) {
     const yaxis = d3.axisLeft().scale(yscale); // de verticale as  met getallen aan de linkerkant
     const g_yaxis = groep.append('g').attr('class', 'y axis');
 
+    const bereikende = document.querySelector('input[type="range"]') //  slider html element
 
     d3.select('select') // selecteer het HTML element <select> (ook wel het filter)
         .on('change', function () { // als er verandering wordt aangebracht
             telData(this.value)
+            bereikende.value="0"
+
         })
 
 
@@ -72,7 +75,7 @@ netteData(counts)
         })
         update(geteldeArray) // update met de bijbehorende  data
 
-        d3.select('input[type="range"]') //  slider html element
+        const bereikende = d3.select('input[type="range"]') //  slider html element
             .on('change', function () { // als dit veranderd
                 filterData(this.value, geteldeArray)
             });

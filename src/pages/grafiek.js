@@ -10,7 +10,7 @@ return(
 
     <div className="graph">
     <div id="filter">
-        <button onClick={halloDaar} value="hoi">maak grafiek</button>
+        <button onClick={halloDaar}>maak grafiek</button>
         <h3>Filter hoe vaak iets mag voorkomen:</h3>
         <label id="range">
             <p>0</p>
@@ -26,7 +26,7 @@ return(
             <p>10</p>
         </label>
 
-        <input type="range" min="0" max="10" defaultValue='5' ></input>
+        <input type="range" min="0" max="10" defaultValue="0" ></input>
 
         <select name="filter">
             <option value="zin" selected>Hoeveel zin heb je in de techtrack?</option>

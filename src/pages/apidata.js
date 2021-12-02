@@ -9,7 +9,7 @@ import request from '../components/request.js'
          
         return(
             <>
-            <input type="text"></input>
+            <input type="text" value="Rembrandt+van+Rijn"></input>
             <button  onClick={request}></button>
             <div>hoi</div>
             <rect className="dinges"></rect>
