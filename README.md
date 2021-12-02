@@ -48,6 +48,9 @@ Je kunt aangeven met de slider welke data je wilt zien van een frequentie 0 - 10
 
 * API data gebruiken om een visualisatie te krijgen. Deze functie laat je een schilder uit de Rijksmuseum API data intypen, waarna je de vijf meest gebruikte verfkleuren door de schilder te zien krijgt. Een mooi en snel overzicht dat interessante resultaten oplevert.
 
+Deze data komt dus van het rijksmuseum, en gebruikt de data facets, dit zijn alle kleuren die een artiest gebruikt, en hoe vaak ze voorkomen in de schilderijen.
+
+Je vindt deze door in de menubalk op 'API data' te kliken.
 ## Voor meer informatie
 
 * documentatie & bronnen:
@@ -57,6 +60,7 @@ Je kunt aangeven met de slider welke data je wilt zien van een frequentie 0 - 10
 * Hogeschool van amsterdam
 * RijksData: https://data.rijksmuseum.nl/
 * Heroku https://heroku.com/
+* 
 
 mandemt
 
