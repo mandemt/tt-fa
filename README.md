@@ -23,8 +23,10 @@ De server is dan bereikbaar op het adres `localhost:3000` en daar kun je alvast 
 
 
 ## Functies 
-* Filteren op data voor de bar chart
-<p align="center"><img src="https://github.com/mandemt/tt-fd/blob/main/images/filter.png" width="25%"></img></p>
+* Bar chart genereren
+<p align="center"><img src="https://github.com/mandemt/tt-fa/blob/main/images/grafiek.png"></img></p>
+
+Om de grafiek te maken klik je op de button "maak grafiek" waardoor een functie wordt gerund die zorgt dat de assen goed zijn gesteld.
 
 Kies in het dropdown menu een vraag uit de dataset. De gegevens zullen dan vanzelf gerenderd worden als bar chart.
 Er zijn standaard vragen als value in het HTML bestand gezet. 
@@ -41,10 +43,10 @@ Er zijn standaard vragen als value in het HTML bestand gezet.
 ```
 Als je `option value=""` veranderd naar een value die slaat op een variabele in de dataset, zal die betreffende data vanaf dan geselecteerd worden. Je kunt het proberen door bijvoorbeeld zelf een variabele en waarde aan te maken in de dataset `tt-dataset.json` en deze als value in te stellen in HTML.
 
-* Filteren op frequentie
+
 
 Je kunt aangeven met de slider welke data je wilt zien van een frequentie 0 - 10. Deze zorgt ervoor dat de bar chart zich aanpast op hoe vaak een variabele voorkomt in de dataset. Als je hem bijvoorbeeld op 10 zet. Krijg je alleen variabelen te zien die meer dan 10 keer zijn voorgekomen.
-<p align="center"><img src="https://github.com/mandemt/tt-fd/blob/main/images/tien.png" width="50%"></img></p>
+<p align="center"><<img src="https://github.com/mandemt/tt-fa/blob/main/images/filtered.png" width="50%"></img></img></p>
 
 * API data gebruiken om een visualisatie te krijgen. Deze functie laat je een schilder uit de Rijksmuseum API data intypen, waarna je de vijf meest gebruikte verfkleuren door de schilder te zien krijgt. Een mooi en snel overzicht dat interessante resultaten oplevert.
 
